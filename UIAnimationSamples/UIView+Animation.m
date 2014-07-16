@@ -63,6 +63,15 @@
                      completion:nil];	// animate the return to visible 
 }
 
+
+
+
+
+
+
+
+
+
 // remove self making it "drain" from the sink!
 - (void) removeWithSinkAnimation:(int)steps
 {

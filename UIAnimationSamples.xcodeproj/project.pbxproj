@@ -22,6 +22,8 @@
 		35D8069C14731182004C39A5 /* FakeHUD.png in Resources */ = {isa = PBXBuildFile; fileRef = 35D8069B14731182004C39A5 /* FakeHUD.png */; };
 		35D8069F14731196004C39A5 /* FakeHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D8069E14731196004C39A5 /* FakeHUD.m */; };
 		35D806A114731202004C39A5 /* FakeHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D806A014731202004C39A5 /* FakeHUD.xib */; };
+		9AA5C0C51976803000798339 /* TestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5C0C31976803000798339 /* TestingViewController.m */; };
+		9AA5C0C61976803000798339 /* TestingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5C0C41976803000798339 /* TestingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,9 @@
 		35D8069D14731196004C39A5 /* FakeHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeHUD.h; sourceTree = "<group>"; };
 		35D8069E14731196004C39A5 /* FakeHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeHUD.m; sourceTree = "<group>"; };
 		35D806A014731202004C39A5 /* FakeHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FakeHUD.xib; sourceTree = "<group>"; };
+		9AA5C0C21976803000798339 /* TestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingViewController.h; sourceTree = "<group>"; };
+		9AA5C0C31976803000798339 /* TestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingViewController.m; sourceTree = "<group>"; };
+		9AA5C0C41976803000798339 /* TestingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				35D806921472D189004C39A5 /* UIView+Animation.m */,
 				35D806961472D870004C39A5 /* AnimationCurvePicker.h */,
 				35D806971472D870004C39A5 /* AnimationCurvePicker.m */,
+				9AA5C0C21976803000798339 /* TestingViewController.h */,
+				9AA5C0C31976803000798339 /* TestingViewController.m */,
+				9AA5C0C41976803000798339 /* TestingViewController.xib */,
 				35D806991472D8AB004C39A5 /* AnimationCurvePicker.xib */,
 				35D8069D14731196004C39A5 /* FakeHUD.h */,
 				35D8069E14731196004C39A5 /* FakeHUD.m */,
@@ -180,6 +188,7 @@
 				35D806951472D40E004C39A5 /* arrow1.png in Resources */,
 				35D8069A1472D8AB004C39A5 /* AnimationCurvePicker.xib in Resources */,
 				35D8069C14731182004C39A5 /* FakeHUD.png in Resources */,
+				9AA5C0C61976803000798339 /* TestingViewController.xib in Resources */,
 				35D806A114731202004C39A5 /* FakeHUD.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +205,7 @@
 				35D8068B1472D124004C39A5 /* ViewController.m in Sources */,
 				35D806931472D189004C39A5 /* UIView+Animation.m in Sources */,
 				35D806981472D870004C39A5 /* AnimationCurvePicker.m in Sources */,
+				9AA5C0C51976803000798339 /* TestingViewController.m in Sources */,
 				35D8069F14731196004C39A5 /* FakeHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +318,7 @@
 				35D806901472D124004C39A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

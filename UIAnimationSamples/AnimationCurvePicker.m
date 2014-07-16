@@ -17,6 +17,11 @@
     NSArray *nibArray = [nib instantiateWithOwner:self options:nil];
     AnimationCurvePicker *me = [nibArray objectAtIndex: 0];
     me.animationlist.delegate = pickerDelegate;
+    
+    
+    
+    //hello world
+    
     me.animationlist.dataSource = pickerDelegate;
     return me;
 }
